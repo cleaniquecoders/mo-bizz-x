@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - MOBizzX 2025',
+    default: 'MOBizzX 2025 - Mastery Online Business Xperience',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    'Join MOBizzX 2025, a one-day seminar crafted for medium and micro business owners. Learn to diversify product portfolios, apply new marketing strategies, utilize AI for sales forecasting, and sustain long-term success. Featuring business consultations from MARA and TEKUN.',
 }
 
 export default function RootLayout({

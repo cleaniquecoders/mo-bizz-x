@@ -21,156 +21,64 @@ interface Day {
 
 const schedule: Array<Day> = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
-    summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+    date: 'May 17',
+    dateTime: '2025-05-17',
+    summary: 'Morning sessions focused on key strategies for business growth.',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
+        name: 'Opening Session',
+        description: 'Introduction and overview of the seminar',
         start: '9:00AM',
-        end: '10:00AM',
+        end: '9:30AM',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
+        name: 'Diversifying Product Portfolio',
+        description: 'Learn how to expand your product offerings to meet market demand.',
+        start: '9:30AM',
+        end: '10:30AM',
       },
     ],
   },
   {
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    summary:
-      'Next we spend the day talking about deceiving people with technology.',
+    date: 'May 17',
+    dateTime: '2025-05-17',
+    summary: 'Afternoon sessions focused on modern marketing and AI-driven strategies.',
     timeSlots: [
       {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
+        name: 'Modern Marketing Strategies',
+        description: 'Explore the latest marketing techniques to boost your online presence.',
         start: '11:00AM',
-        end: '12:00PM',
+        end: '12:30PM',
       },
       {
         name: 'Lunch',
         description: null,
-        start: '12:00PM',
-        end: '1:00PM',
+        start: '12:30PM',
+        end: '1:30PM',
       },
       {
-        name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
+        name: 'AI for Sales Forecasting',
+        description: 'Discover how AI technology can help you predict future sales trends.',
         start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
+        end: '3:30PM',
       },
     ],
   },
   {
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    summary:
-      'We close out the event previewing new techniques that are still in development.',
+    date: 'May 17',
+    dateTime: '2025-05-17',
+    summary: 'Evening session dedicated to a forum on business success strategies.',
     timeSlots: [
       {
-        name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Heather Terry',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
-        end: '4:00PM',
+        name: 'Business Success Forum',
+        description: 'A panel discussion on strategies for long-term business success.',
+        start: '3:45PM',
+        end: '5:00PM',
       },
     ],
   },
 ]
+
 
 function ScheduleTabbed() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -309,13 +217,10 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Here's the schedule for MOBizzX 2025
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            A day full of insightful sessions, expert advice, and strategies designed to take your online business to the next level.
           </p>
         </div>
       </Container>
