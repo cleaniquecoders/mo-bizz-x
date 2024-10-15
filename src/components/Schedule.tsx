@@ -217,7 +217,7 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Here's the schedule on July 17, 2025
+            Here&apos;s the schedule on July 17, 2025
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             A day full of insightful sessions, expert advice, and strategies designed to take your online business to the next level.
