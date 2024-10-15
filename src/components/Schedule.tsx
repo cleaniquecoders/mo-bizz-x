@@ -21,7 +21,7 @@ interface Day {
 
 const schedule: Array<Day> = [
   {
-    date: 'May 17',
+    date: 'Morning',
     dateTime: '2025-05-17',
     summary: 'Morning sessions focused on key strategies for business growth.',
     timeSlots: [
@@ -40,7 +40,7 @@ const schedule: Array<Day> = [
     ],
   },
   {
-    date: 'May 17',
+    date: 'Afternoon',
     dateTime: '2025-05-17',
     summary: 'Afternoon sessions focused on modern marketing and AI-driven strategies.',
     timeSlots: [
@@ -55,20 +55,20 @@ const schedule: Array<Day> = [
         description: null,
         start: '12:30PM',
         end: '1:30PM',
-      },
+      }
+    ],
+  },
+  {
+    date: 'Evening',
+    dateTime: '2025-05-17',
+    summary: 'Evening session dedicated to a forum on business success strategies.',
+    timeSlots: [
       {
         name: 'AI for Sales Forecasting',
         description: 'Discover how AI technology can help you predict future sales trends.',
         start: '2:00PM',
         end: '3:30PM',
       },
-    ],
-  },
-  {
-    date: 'May 17',
-    dateTime: '2025-05-17',
-    summary: 'Evening session dedicated to a forum on business success strategies.',
-    timeSlots: [
       {
         name: 'Business Success Forum',
         description: 'A panel discussion on strategies for long-term business success.',
@@ -217,7 +217,7 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Here's the schedule for MOBizzX 2025
+            Here's the schedule on July 17, 2025
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             A day full of insightful sessions, expert advice, and strategies designed to take your online business to the next level.
